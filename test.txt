@@ -1,2 +1,4 @@
 First line of text
 Second line of text
+This is line 1
+This is line 2
