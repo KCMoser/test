@@ -1,4 +1,3 @@
-
 # Playing with files
 f = open('test.txt','r+')     # the r+ is read/write mode
 print 'Output of read'
