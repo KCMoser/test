@@ -4,8 +4,6 @@ import logging
 logging.basicConfig(filename='activity.log', level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')   #Set up timestamp and logfile name
 
 def show_button_action(*args):              #Action for button press created, the *args allows enter or button click to work
-    print('button has been pressed')        #Do something
-    resultText.config(text='I am pressed')  #Changes placeholder from empty to have text
     logging.info('Button pressed')          #Add a logging event to button use
         
 root=Tk()                                   #Build standard window object called root
