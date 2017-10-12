@@ -3,5 +3,3 @@ Second line of text
 
 This is line 1
 This is line 2
-This is line 1
-This is line 2
