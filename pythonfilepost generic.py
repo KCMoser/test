@@ -8,4 +8,5 @@ import dropbox
 dbx = dropbox.Dropbox('') # add access token
 
 #Upload the file
-dbx.files_upload("results.log", '/results.log')
+with open("results.log", "rb") as f:
+    dbx.files_upload(f.read(), '/results.log', mute = True)
