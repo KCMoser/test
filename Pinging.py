@@ -11,7 +11,7 @@ if os_name=="win32":
 else:
     options=str('-c 1')
 
-    # Pinging
+# Pinging
 pingresult=subprocess.getoutput('ping' +' '+ host+' '+ options)
 print(pingresult)                           # For testing
 if 'unreachable' in pingresult:
